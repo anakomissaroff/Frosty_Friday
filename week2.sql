@@ -1,10 +1,12 @@
--- CREATE TABLE FOR A FUTURE PLACEMENT OF THE TABLE
+--- Snowflake Streams
+
+--- CREATE TABLE FOR A FUTURE PLACEMENT OF THE TABLE
 create table W2 ("C1" VARIANT);
 
--- CREATE AN INTERNAL STAGE @MY_INT_STAGE 
+--- CREATE AN INTERNAL STAGE @MY_INT_STAGE 
 
--- PUT THE FILE ON THE INTERNAL STAGE @my_int_stage
--- DID THIS PART THROUGH SNOWSQL PUT file://C:\Users\x\Documents\employees.parquet @my_int_stage
+--- PUT THE FILE ON THE INTERNAL STAGE @my_int_stage
+--- DID THIS PART THROUGH SNOWSQL PUT file://C:\Users\x\Documents\employees.parquet @my_int_stage
 
 
 COPY INTO FROSTY_FRIDAYS.PUBLIC.W2 
